@@ -26,7 +26,7 @@ include('includes/pagetop.php');
 <div class="container">
 <h1>AndMyCash</h1>
 <hr>
-<p>Bienvenido a AndMyCash, la aplicaci&oacute;n de contabilidad domestica por MaRuGi 2018</p>
+<p>Bienvenido a AndMyCash, la aplicaci&oacute;n de contabilidad domestica por Mario Rubio 2018</p>
 <?php
 if($error){
     echo "<div class='error'>Error al iniciar sesion</div>";
