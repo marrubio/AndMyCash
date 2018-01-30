@@ -26,7 +26,7 @@ include('includes/pagetop.php');
 <div class="container">
 <h1>AndMyCash</h1>
 <hr>
-<p>Bienvenido a AndMyCash, la aplicaci&oacute;n de contabilidad domestica por MaRuGi 2013</p>
+<p>Bienvenido a AndMyCash, la aplicaci&oacute;n de contabilidad domestica por MaRuGi 2018</p>
 <?php
 if($error){
     echo "<div class='error'>Error al iniciar sesion</div>";
@@ -41,37 +41,37 @@ if($logged){
         <caption>Seleccione una opcion del listado para continuar</caption>
         <thead>
           <tr>
-            <th class="span-6">Opci&oacute;n</th>            
+            <th class="span-6">Opci&oacute;n</th>
             <th class="span-10">Descrici&oacute;n</th>
           </tr>
         </thead>
         <tbody>
           <tr>
-            <td><a href="ApunteNuevo.php">Nueva Transacci&oacute;n</a></td>            
+            <td><a href="ApunteNuevo.php">Nueva Transacci&oacute;n</a></td>
             <td>Crear nueva transacci&oacute;n</td>
           </tr>
       <tr>
-            <td><a href="ApunteListado.php">Listado Transacciones</a></td>            
+            <td><a href="ApunteListado.php">Listado Transacciones</a></td>
             <td>Listado de transacciones</td>
-          </tr>     
+          </tr>
       <tr>
-            <td><a href="CuentaListado.php">Listado de cuentas</a></td>            
+            <td><a href="CuentaListado.php">Listado de cuentas</a></td>
             <td>Listado de cuentas</td>
           </tr>
           <tr>
-            <td><a href="PersonaListado.php">Listado de personas</a></td>            
+            <td><a href="PersonaListado.php">Listado de personas</a></td>
             <td>Listado de personas</td>
-          </tr>   
+          </tr>
       <tr>
-            <td><a href="ApuntePeriodicoListado.php">Transacciones Periodicas</a></td>            
+            <td><a href="ApuntePeriodicoListado.php">Transacciones Periodicas</a></td>
             <td>Transacciones programadas</td>
-          </tr>   
+          </tr>
           <tr>
-            <td><a href="Balance.php">Balance</a></td>            
+            <td><a href="Balance.php">Balance</a></td>
             <td>Balance de cuentas</td>
-          </tr>         
+          </tr>
           <tr>
-            <td>Estadisticas</td>            
+            <td>Estadisticas</td>
             <td>Estadisticas de cuentas</td>
           </tr>
           <tr>
@@ -79,16 +79,16 @@ if($logged){
             <td>Opciones de administración</td>
           </tr>
           <tr>
-            <td><a href="Acerca.php">Acerca de</td>            
+            <td><a href="Acerca.php">Acerca de</td>
             <td>Acerca de AndMyCash</td>
-          </tr>     
+          </tr>
        </tbody>
        </table>
-      
+
 <?php
 }else{
 ?>
-<form action="AndMyCash.php" method="post"> 
+<form action="AndMyCash.php" method="post">
 <table border=0 cellspacing="0">
 <tr><td>USUARIO:</td><td><input name="log_name" type="text" /></td></tr>
 <tr><td>CONTRASEÑA:</td><td><input name="log_pwd" type="password" /></td></tr>
